@@ -1,0 +1,299 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+h1, h3{
+  font-family: Arial, sans-serif;
+	color: #364201;
+}
+h2 {
+	font-family: Arial, sans-serif;
+	color: #98b901;
+
+}
+
+/* Formulario */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+
+  /* FOOTER */
+ #footer {
+  color: #fff;
+  background-color: #98b901;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* Esto es un comentario CSS */
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+/* @media screen and (min-width: 992px) { 
+  .column {
+    width: 80%;
+    background-color: aqua;
+  }
+  .container {
+    width: 50%;
+    align-content: center;
+  }
+  .titulo {
+    font-size: 36px;
+    color: red;
+  }
+}*/
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+/*@media screen and (min-width: 600px) {
+  .column {
+    width: 100%;
+    background-color: darkblue;
+  }
+  .titulo {
+    font-size: 36px;
+    color: red;
+  }
+}*/
+
+/* Mediaquery para desktop */
+/*@media only screen and (max-width: 768px){
+.navbar{
+  float: left;
+}
+#section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.body-container{
+  background-color: blue;
+}
+}
+
+/* Mediaquery tablets */
+/*@media only screen and (max-width: 768px){
+  .navbar{
+    float: left;
+  }
+  #section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .body-container{
+    background-color: red;
+  }
+}
+
+/* Mediaquery para celulares */
+/*@media only screen and (max-width: 1024px){
+  .navbar{
+    float: left;
+  }
+
+  #section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .body-container{
+    background-color: yellow;
+  }
+
+}
+
+
+
+/* Estilos para el encabezado */
+/*header {
+	background-color: #98b901;
+	color: #fff;
+	padding: 20px;
+}
+
+/* Estilos para los títulos */
+/*h1, h3 {
+	font-family: Arial, sans-serif;
+	color: #fff;
+}
+h2 {
+	font-family: Arial, sans-serif;
+	color: #98b901;
+    font-size: 35px;
+}
+
+/* Estilos para los enlaces */
+/*a {
+	color: #000;
+	text-decoration: none;
+    padding: 20px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Estilos para las listas */
+/*ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+/* Estilos para las imágenes */
+
+
+/*img {
+	width: 450px;
+	height: auto;
+  object-fit: cover;
+  object-position: center;
+  padding: 6px;
+}
+
+.container {
+display:flex;
+max-width: 100vw;
+width: 100%;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
+/* Menú */
+
+/*nav {
+    background-color: transparent;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 10;
+    padding: 10;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #0066cc;
+  }
+
+/* Formulario */
+/*form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+
+  /* FOOTER */
+/*#footer {
+  background-color: #98b901;
+  padding: 14px 16px;
+  text-decoration: none;
+}
